@@ -14,7 +14,10 @@ Change the line "gamedll_linux=<something>" to "gamedll_linux="hl.so""
 cd ~/halflife
 cp hl.so valve/dlls/hl.so
 ```
-run game with "LD_LIBRARY_PATH=/optvc/lib:/home/rock/halflife/:. ./xash3d -console"
+run game with 
+```bash
+LD_LIBRARY_PATH=/optvc/lib:/home/rock/halflife/:. ./xash3d -console
+```
 
 
 
