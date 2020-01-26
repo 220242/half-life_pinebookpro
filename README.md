@@ -8,7 +8,7 @@ Copy `valve` folder from original game to ~/halflife
 
 Go to the `valve` dir and open `liblist.gam` in a text editor.
 
-Change the line "gamedll_linux=<something>" to "gamedll_linux="hl.so""
+Change the line `gamedll_linux=<something>` to `gamedll_linux="hl.so"`
 
 ```bash
 cd ~/halflife
