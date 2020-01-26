@@ -18,7 +18,22 @@ run game with "LD_LIBRARY_PATH=/optvc/lib:/home/rock/halflife/:. ./xash3d -conso
 
 
 
-*Blue Shift
+Bugs
+----------
+-cstrike multiplayer cant choose team
+
+fixed
+----------
+-"connection problem. too many lost packets" (fix ingame console cl_maxpacket 700)
+
+
+
+
+
+Installation other modes 
+----------
+
+Blue Shift
 ----------
 Copy `bshift` folder from original game to `~/halflife`
 ```bash
@@ -26,7 +41,7 @@ cd ~/halflife
 cp hl.so bshift/dlls/bshift.so
 ```
 
-*Counter Strike
+Counter Strike
 ---------- 
 Copy `cstrike` folder from original game to `~/halflife`
 ```bash
@@ -34,7 +49,7 @@ cd ~/halflife
 cp hl.so bshift/dlls/cs.so
 ```
 
-*Opposing Force
+Opposing Force
 ----------
 Copy `gearbox` folder from original game to `~/halflife`
 ```bash
@@ -42,7 +57,7 @@ cd ~/halflife
 cp hl.so bshift/dlls/opfor.so
 ```
 
-*Team Fortress Classic
+Team Fortress Classic
 ----------
 Copy `tfc` folder from original game to `~/halflife`
 ```bash
