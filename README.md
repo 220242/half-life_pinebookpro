@@ -27,7 +27,7 @@ LD_LIBRARY_PATH=/optvc/lib:/home/rock/halflife/:. ./xash3d -console
 
 #### fixed
 ----------
--"connection problem. too many lost packets" (fix ingame console cl_maxpacket 700)
+-`connection problem. too many lost packets` fix ingame console `cl_maxpacket 700`
 
 
 
