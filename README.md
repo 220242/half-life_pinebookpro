@@ -23,7 +23,7 @@ LD_LIBRARY_PATH=/optvc/lib:/home/rock/halflife/:. ./xash3d -console
 
 #### Bugs
 ----------
--cstrike multiplayer cant choose team
+-cstrike multiplayer cant choose team, because we cannot build actualy dll https://github.com/FWGS/cs16-client
 
 #### fixed
 ----------
