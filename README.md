@@ -1,7 +1,7 @@
 # half-life on pinebook pro with few clicks 
 [Thx](https://forum.pine64.org/showthread.php?tid=8394)
 
-*After script
+#After script
 ----------
 
 Copy `valve` folder from original game to ~/halflife
@@ -33,34 +33,34 @@ fixed
 Installation other modes 
 ----------
 
-Blue Shift
-----------
+1. Blue Shift
+
 Copy `bshift` folder from original game to `~/halflife`
 ```bash
 cd ~/halflife 
 cp hl.so bshift/dlls/bshift.so
 ```
 
-Counter Strike
----------- 
+1. Counter Strike
+ 
 Copy `cstrike` folder from original game to `~/halflife`
 ```bash
 cd ~/halflife 
-cp hl.so bshift/dlls/cs.so
+cp hl.so cstrike/dlls/cs.so
 ```
 
-Opposing Force
-----------
+1. Opposing Force
+
 Copy `gearbox` folder from original game to `~/halflife`
 ```bash
 cd ~/halflife 
-cp hl.so bshift/dlls/opfor.so
+cp hl.so gearbox/dlls/opfor.so
 ```
 
-Team Fortress Classic
-----------
+1. Team Fortress Classic
+
 Copy `tfc` folder from original game to `~/halflife`
 ```bash
 cd ~/halflife 
-cp hl.so bshift/dlls/tfc.so
+cp hl.so tfc/dlls/tfc.so
 ```
