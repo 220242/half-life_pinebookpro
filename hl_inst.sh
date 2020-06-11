@@ -8,7 +8,7 @@ git clone https://github.com/ValveSoftware/halflife
 mv halflife hlsdk
 mkdir build
 cd build
-cmake -DHL_SDK_PATH=../hlsdk/ -DXASH_VGUI=no -DXASH_NANOGL=yes -DXASH_GLES=yes ..
+cmake -DHL_SDK_PATH=../hlsdk/ -DXASH_VGUI=no -DXASH_NANOGL=yes -DXASH_GLES=yes -DXASH_64BIT=1 ..
 make
 cd ~
 mkdir halflife
