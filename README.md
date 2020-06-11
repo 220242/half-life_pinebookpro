@@ -8,11 +8,12 @@ Copy `valve` folder from original game to ~/halflife
 
 Go to the `valve` dir and open `liblist.gam` in a text editor.
 
-Change the line `gamedll_linux=<something>` to `gamedll_linux="hl.so"`
+Change the line `gamedll_linux=<something>` to `gamedll_linux="hl_arm64.so"`
 
 ```bash
 cd ~/halflife
-cp hl.so valve/dlls/hl.so
+cp hl_arm64.so valve/dlls/hl_arm64.so
+cp client_arm64.so valve/cl_dlls/client64.so
 ```
 run game with 
 ```bash
