@@ -13,7 +13,7 @@ make
 cd ~
 mkdir halflife
 cp xash3d/build/engine/libxash.so halflife/
-cp xash3d/build/mainui/libxashmenu.so halflife/
+cp xash3d/build/mainui/libxashmenu64.so halflife/
 cp xash3d/build/game_launch/xash3d halflife/
 git clone https://github.com/FWGS/hlsdk-xash3d
 cd hlsdk-xash3d
