@@ -19,12 +19,12 @@ git clone https://github.com/FWGS/hlsdk-xash3d
 cd hlsdk-xash3d
 mkdir build
 cd build
-cmake ../
-make
+python3 ../waf configure -T release --enable-goldsrc-support
+python3 ../waf
 cd ~
-cp hlsdk-xash3d/build/cl_dll/client.so halflife/
-cp hlsdk-xash3d/build/dlls/hl.so halflife/
-#delete crap
+cp dlls/hl_arm64.so ~/halflife/
+cp cl_dll/client_arm64.so ~/halflife/
+ #delete crap
 cd ~
 rm -rf hlsdk-xash3d
 rm -rf xash3d
